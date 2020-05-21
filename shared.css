@@ -185,7 +185,8 @@ body{
   padding: 8px;
 }
 
-.nav-link__list a:hover{
+.nav-link__list a:hover,
+.nav-link__list a:active{
   color: rgb(153, 227, 229);
 }
 

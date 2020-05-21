@@ -1,0 +1,27 @@
+.toggle-button{
+  display: none;
+}
+
+
+.main-nav{
+  display: inline-block;
+  width: 60%;
+  padding-left: 0rem;
+}
+
+.main-header > div{
+  display: inline-block;
+  width: 20%;
+}
+
+.main-header__brand img{
+  height: 3.4rem;
+}
+
+.main-nav__items{
+  padding-right: 0rem;
+}
+
+.main-nav{
+  padding-left: 4rem;
+}

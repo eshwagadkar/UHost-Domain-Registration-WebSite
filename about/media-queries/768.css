@@ -195,4 +195,8 @@
     font-size: 1.1rem;
     padding: 1.1rem 2rem;
   }
+
+  .nav-link__list a:active{
+  color: rgb(153, 227, 229);
+}
 }
