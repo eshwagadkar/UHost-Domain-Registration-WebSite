@@ -208,16 +208,16 @@ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0 , 0.5);
 } 
 
 .article-img-1{
-  background-image: url('/images/domain.jpg');
+  background-image: url('./images/domain.jpg');
 }
 .article-img-2{
-  background-image: url('/images/build-website.jpg');
+  background-image: url('./images/build-website.jpg');
 }
 .article-img-3{
-  background-image: url('/images/seo.jpg');
+  background-image: url('./images/seo.jpg');
 }
 .article-img-4{
-  background-image: url('/images/plan.jpg');
+  background-image: url('./images/plan.jpg');
 } 
 
 
