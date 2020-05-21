@@ -1,0 +1,38 @@
+/* 375px and greater */
+@media(min-width: 23.4375rem){
+  .package-description__background{
+    height: 31.2rem;
+  }
+
+  main .about-heading{
+    padding-left: 4.6rem;
+  }
+
+  .package button {
+    margin-left: 1rem;
+  }
+
+  .package:nth-child(2) .package-description-right button{
+    margin-left: 1.4rem;
+  }
+
+  .package-image__style{
+    width: 85%;
+  }
+
+  .package-description-left, .package-description-right {
+    width: 85%;
+  }
+
+  .package:nth-child(2) .package-description-right button{
+    margin-left: 1.9rem;
+  }
+
+  .package:nth-child(3) .package-description-left button {
+    margin-right: 1.2rem;
+  }
+
+  .package-description-left p, .package-description-right p{
+    font-size: 1.2rem;
+  }
+}

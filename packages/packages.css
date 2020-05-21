@@ -1,0 +1,151 @@
+
+.packages-container{
+  background: linear-gradient(to top, rgba(211, 206, 206, 0.5) 100%, transparent), url('/images/build-website.jpg') center/cover no-repeat;
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  width: 100%;
+  padding-top: 5.32rem;
+  padding-bottom: 1.3rem;
+  background-attachment: fixed;
+  position: relative;
+  /* top: 70px; */
+}
+
+.packages-container section:first-of-type{
+  position: relative;
+  top: 2.5rem;
+}
+
+.package{
+  background-color: rgba(15, 14, 14, 1);    
+  width: 60%;
+  height: 100%; 
+  margin-bottom: 2.5rem;
+  border-left: none;
+  cursor: pointer;
+  padding: 1.3rem;
+  position: relative;
+}
+
+.package:hover{
+  border-left: none;
+  background-color: rgba(15, 14, 14, 0.8);
+}
+
+.package:active{
+  box-shadow: 4px 4px 8px 8px rgba(53, 50, 50, 0.5);
+}
+
+.package h1,h2,h3,p{
+  padding: 0.63rem;
+  color: #fff;
+}
+
+.package h3{
+  position: absolute;
+  top: 1.9rem;
+  left: 37.5rem;
+  background: rgb(241, 91, 91);
+}
+
+.package p{
+  background-color: antiquewhite;
+  color: black;
+  padding: 2%;
+}
+
+.float-right{
+  float: right;
+  border-right: none;
+  margin-top: 2.5rem;
+}
+
+.float-right:active{
+  border-right: none;
+}
+
+.fix-float{
+  clear: both;
+}
+
+
+/* Mobile Navgation */
+.mobile-nav {
+  display: none;
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  background: rgb(255, 255, 255);
+  width: 80%;
+  height: 100vh;
+}
+
+.mobile-nav__items {
+  width: 90%;
+  height: 100%;
+  list-style: none;
+  margin: 10% auto;
+  padding: 0;
+  text-align: center;
+}
+
+.mobile-nav__item {
+  margin: 1rem 0;
+}
+
+.mobile-nav__item a {
+  font-size: 1.5rem;
+}
+
+
+/* Media Queries */
+@media( min-width: 18.75rem){
+  .package{
+    width: 85%;
+  }
+
+  .package h3{
+    left: 8rem;
+    font-size: 0.75rem;
+    top: 4.25rem;
+  }
+
+  .package:first-child h2{
+    padding-top: 40px;
+  }
+
+  .package p{
+    padding: 7%;
+  }
+
+  .logo{
+    margin-bottom: 25px;
+  }
+
+  .footer{
+    margin-bottom: 25px;
+  }
+
+  .footer .glossy-button{
+    margin-right: 42px;
+  }
+
+  .footer h5{
+    text-align: center;
+  }
+
+}
+
+
+/* 360px  */
+@media(min-width: 22.5rem){
+  .package h3{
+    left: 10rem;
+  }
+
+  .footer .glossy-button{
+    margin-right: 4.375rem;
+  }
+}

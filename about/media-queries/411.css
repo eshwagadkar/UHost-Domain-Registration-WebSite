@@ -1,0 +1,45 @@
+@media(min-width: 25.6875rem){
+
+  .package-image__style{
+    height: 14rem;
+  }
+
+  .package-description__background{
+    height: 35.4rem;
+  }
+
+  main .about-heading {
+    padding-left: 5.6rem;
+  }
+
+  .package__image-container-2{
+    left: 2rem;
+  }
+
+  .package-description-right{
+    margin-top: 14rem;
+  }
+
+  .package-description-left h6,
+  .package-description-right h6{
+    font-size: 1.3rem;
+  }
+
+  .package-description-left p, 
+  .package-description-right p{
+    font-size: 1.2rem;
+  }
+
+  .package button{
+    margin-left: 2.5rem;
+  }
+
+  .package:nth-child(2) .package-description-right button{
+    margin-left: 3.3rem;
+  }
+
+  .package:nth-child(3) .package-description-left button{
+    margin-left: 1.8rem;
+  }
+
+}
