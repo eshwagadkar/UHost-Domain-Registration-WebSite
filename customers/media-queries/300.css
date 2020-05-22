@@ -1,0 +1,11 @@
+@media( min-width: 18.75rem){
+
+  .main-header .main-nav{
+    display: none;
+  }
+
+  .toggle-button{
+    display: inline-block;
+  }
+
+}
