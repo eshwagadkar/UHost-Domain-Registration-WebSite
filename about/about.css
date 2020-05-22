@@ -1,7 +1,7 @@
 .package-description__background{
   width: 100%;
   height: 25rem;
-  background: linear-gradient(to top, rgba(211, 206, 206, 0.5) 100%, transparent), url('/images/packages-background.jpg') right 40% top 10%/cover no-repeat;
+  background: linear-gradient(to top, rgba(211, 206, 206, 0.5) 100%, transparent), url('../images/packages-background.jpg') right 40% top 10%/cover no-repeat;
   background-size: cover;
   background-position: right 40% top 10%;
   background-repeat: no-repeat;
@@ -43,13 +43,13 @@ main .about-heading{
 }
 
 .package__image-container-1{
-  background:  url('/images/email-domain.jpg');
+  background:  url('../images/email-domain.jpg');
 }
 .package__image-container-2{
-  background:   url('/images/web-design.jpg');
+  background:   url('../images/web-design.jpg');
 }
 .package__image-container-3{
-  background:   url('/images/business.jpg');
+  background:   url('../images/web-design.jpg');
 }
 
 .package-image__style{
