@@ -1,0 +1,173 @@
+
+@media( min-width: 18.75rem){
+
+  .main-header > div{
+    padding-left: 1.25rem;
+    width: 100%;
+  }
+  
+  .main-header > div a.main-header__brand{
+    display: none;
+  }
+
+  .main-header > div a.glossy-button{
+    color: #fff;
+    margin-left: 5rem;
+  }
+
+  main > svg{
+    width: 100%;
+    height: 1.5rem;
+    margin: 5.6375rem 0 0;
+  }
+  
+  .glossy-button{
+    background: linear-gradient(to right, rgb(83, 161, 161), hsl(191, 95%, 24%));
+  }
+
+  .nav-link{
+    margin-right: 0px;
+  }
+
+  .mobile-nav__item:last-child a{
+    color: #fff;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-left: 5px;
+  }
+
+  .main-header__brand img{
+    height: 3rem;
+  }
+
+  .main-nav{
+    display: none;
+  }
+
+  .mobile-nav__item .main-header__brand{
+    height: 3rem;
+  }
+
+  .toggle-button{
+    width: 2rem;
+  }
+  
+  .toggle-button__bar{
+    margin: 0.3rem 0;
+  }
+
+  .section-title{
+    padding: 1rem 0 2rem;
+  }
+
+  .section-title__features{
+    padding-bottom: 0px;
+    padding-top: 50px;
+    font-size: 1.6rem;
+  }
+
+  .key-feature{
+    margin-top: 40px;
+  }
+
+  #key-features{
+    width: 90%;
+    position: relative;
+    left: 4.6%;
+  }
+
+  .plan{
+    width: 90%;
+  }
+
+  #key-features{
+    margin-top: 40px;
+  }
+
+  .key-feature{
+    width: 100%;
+  }
+
+  .key-feature__description{
+    margin-bottom: 20px;
+  }
+
+  .articles{
+    width: 90%;
+    margin: 2.5rem 1.125rem;
+  }
+
+  .article{
+    width: 95%;
+  }
+
+  .articles h1{
+    padding-top: 50px;
+  }
+
+  .article-description h6 {
+    font-size: 0.9rem;
+  }
+
+  .article-description h5 {
+    font-size: 1.2rem;
+  }
+   
+  .article-description p {
+    font-size: 1.1rem;
+  }
+  .section-title__features {
+    padding: 40px 0px 0px;
+  }
+
+  #product-overview{
+    height: 77vh;
+    position: relative;
+    background-position: left 50% top 50%;
+  }
+
+  #product-overview h1{
+    font-size: 1.7rem;
+    position: absolute;
+    top: 20rem;
+    left: 30px;
+    padding: 0;
+  }
+
+  .border{
+    border: 2px solid black;
+    height: 10px;
+  }
+
+  .logo{
+    margin-bottom: 25px;
+  }
+
+  .footer{
+    margin-bottom: 25px;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .footer .glossy-button{
+    margin-right: 42px;
+    padding: 0.9375rem 1.875rem;
+  }
+
+  .footer h5{
+    text-align: center;
+  }
+
+  .modal{
+    left: 10%;
+    width: 80%;
+  }
+
+  .modal__title{
+    font-size: 1.5rem;
+  }
+
+  .modal__action {
+    margin-right: 9px;
+}
+}

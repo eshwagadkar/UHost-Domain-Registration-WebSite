@@ -1,0 +1,11 @@
+@media(min-width: 23.4375rem){
+
+  .article {
+    width: 100%
+  }
+
+  .footer .glossy-button{
+    margin-right: 4.875rem;
+  }
+
+}

@@ -1,0 +1,41 @@
+@media(min-width: 22.5rem){
+
+  .main-header > div a{
+    margin-left: 2.5rem;
+  }
+
+  .main-header > div a.glossy-button{
+    margin-left: 7.5rem;
+  }
+
+  .nav-link__container .nav-link:last-child{
+    margin-left: 1.25rem;
+  }
+
+  main > svg{
+    margin: 7rem 0 0;
+  }
+  
+  .section-title{
+    padding-top: 1.5rem;
+    font-size: 1.6rem;
+  }
+
+  #product-overview{
+    height: 77vh;
+    top: 4.9rem;
+  }
+
+  #product-overview h1{ 
+    top: 25rem;
+  }
+
+  #key-features{
+    left: 4.6%;
+  }
+
+  .footer .glossy-button{
+    margin-right: 4.375rem;
+  }
+
+}

@@ -4,24 +4,17 @@
   width: 100%;
   height: 88vh;
   position: relative;
-  top: 80px;
+  top: 4.375rem;
 }
 
 #product-overview h1{
   color: #fff;
   font-family: 'Anton', sans-serif;
-  padding: 100px 50px;
+  padding: 6.25rem 3.125rem;
   letter-spacing: 0.2rem;
   word-spacing: 0.2rem;
   text-shadow: 1px 1px 6px black;
   font-size: 1.6rem;
-}
-
-@media (min-width:40rem){
-  #product-overview h1{
-    font-size: 3rem;
-  }
-
 }
 
 #plans > div {
@@ -31,27 +24,28 @@
 .section-title{
   color: #0e3f1f;
   text-align: center;
-  padding: 150px 0px 60px 0px;
+  padding: 6.06350rem 0rem 1.875rem;
+  font-size: 1.35rem;
 }
 
 .section-title__features{
   color: #0e3f1f;
   text-align: center;
-  padding: 80px 0px 80px 0px;
+  padding: 5rem 0rem;
 }
 
 .plan{
   background: #c4e3cb;
   text-align: center;
-  padding: 16px;
-  margin: 8px;
+  padding: 1rem;
+  margin: 0.5rem;
   display: inline-block;
   vertical-align: middle;
   width: 30%;
 }
 
 .plan h1, h2, h3{
-  margin: 15px 0;
+  margin: 0.9375rem 0rem;
 }
 
 .plan--highlighted{
@@ -71,9 +65,9 @@
 .plan__annotation{
   background: #fff;
   color: #6a9c78;
-  padding: 8px;
+  padding: 0.5rem;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0 , 0.5);
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 
 .plan__title{
@@ -104,10 +98,10 @@
   font-weight: bold;
   outline: none;
   border: none;
-  padding: 10px;
-  border-radius: 8px;
+  padding: 0.625rem;
+  border-radius: 0.5rem;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 .recommended__plan-button{
@@ -117,10 +111,10 @@
   font-weight: bold;
   outline: none;
   border: none;
-  padding: 10px;
-  border-radius: 8px;
+  padding: 0.625rem;
+  border-radius: 0.5rem;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 .button:hover{
@@ -143,12 +137,12 @@ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0 , 0.5);
 
 #key-features{
   background: #f0efef;
-  margin-top: 80px;
-  padding: 16px 0px 90px;
+  margin-top: 5rem;
+  padding: 1rem 0px 5.625rem;
 }
 
 #key-features .section-title{
-  margin: 32px;
+  margin: 2rem;
 }
 
 .key-feature__list{
@@ -166,26 +160,26 @@ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0 , 0.5);
   text-align: center;
   font-weight: bold;
   color: #0e4f1f;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .key-feature__image{
   background: linear-gradient(to right bottom, rgb(92, 228, 92), rgb(69, 246, 246));
-  height: 125px;
-  width: 125px;
+  height: 7.8125rem;
+  width: 7.8125rem;
   border-radius: 50%;
-  margin: 20px auto;
-  padding: 26px;
+  margin: 1.25rem auto;
+  padding: 1.625rem;
 }
 
 /* Articles */
 .articles{
   background: #f9f6f7;
-  padding-bottom: 60px;
+  padding-bottom: 3.75rem;
 }
 
 .articles h1{
-  padding: 70px 30px 40px;
+  padding: 4.375rem 1.875rem 2.5rem;
   text-align: center;
   color: #0e4f1f;
 }
@@ -193,7 +187,7 @@ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0 , 0.5);
 .article{
   display: inline-block;
   width: 24%;
-  padding: 15px;
+  padding: 0.9375rem;
   vertical-align: top;
 }
 
@@ -223,7 +217,7 @@ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0 , 0.5);
 
  .style__article-img{
   width: 100%;
-  height: 200px;
+  height: 12.5rem;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -237,18 +231,18 @@ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0 , 0.5);
  }
 
  .article-description h5{
-  padding: 20px 20px 0px;
+  padding: 1.25rem 1.25rem 0rem;
   color: #525252;
 }
 
 .article-description h6{
-  padding: 30px 20px 0px;
+  padding: 1.875rem 1.25rem 0rem;
   color: #8d8888;
 }
 
 .article-description p{
-  padding: 20px 20px 20px;
-  font-size: 12px;
+  padding: 1.25rem;
+  font-size: 0.75rem;
   color: #615b5b;
 }
 
@@ -303,140 +297,4 @@ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0 , 0.5);
 .modal__action--negative:active {
   background: #ff5454;
   border-color: #ff5454;
-}
-
-
-/* CSS MEDIA QUERIES */
-
-/* Plan */
-@media( min-width: 18.75rem){
-
-  .plan{
-    width: 90%;
-  }
-
-  #key-features{
-    margin-top: 40px;
-  }
-
-  .key-feature{
-    width: 100%;
-  }
-
-  .key-feature__description{
-    margin-bottom: 20px;
-  }
-
-  .articles{
-    width: 90%;
-    margin: 2.5rem 1.125rem;
-  }
-
-  .article{
-    width: 95%;
-  }
-
-  .articles h1{
-    padding-top: 50px;
-  }
-
-  .article-description h6 {
-    font-size: 0.9rem;
-  }
-
-  .article-description h5 {
-    font-size: 1.2rem;
-  }
-   
-  .article-description p {
-    font-size: 1.1rem;
-  }
-  .section-title__features {
-    padding: 40px 0px 0px;
-  }
-
-  #product-overview{
-    height: 75vh;
-    position: relative;
-    background-position: left 50% top 50%;
-  }
-
-  #product-overview h1{
-    font-size: 1.7rem;
-    position: absolute;
-    top: 20rem;
-    left: 30px;
-    padding: 0;
-  }
-
-  .border{
-    border: 2px solid black;
-    height: 10px;
-  }
-
-  .logo{
-    margin-bottom: 25px;
-  }
-
-  .footer{
-    margin-bottom: 25px;
-  }
-
-  .footer .glossy-button{
-    margin-right: 42px;
-  }
-
-  .footer h5{
-    text-align: center;
-  }
-
-  .modal{
-    left: 10%;
-    width: 80%;
-  }
-
-  .modal__title{
-    font-size: 1.5rem;
-  }
-
-  .modal__action {
-    margin-right: 9px;
-}
-}
-
-/* 360px and greater */
-@media(min-width: 22.5rem){
-
-  #product-overview{
-    height: 77vh;
-  }
-
-  #product-overview h1{ 
-    top: 25rem;
-  }
-
-  #key-features{
-    left: 4.6%;
-  }
-
-  .footer .glossy-button{
-    margin-right: 4.375rem;
-  }
-
-}
-
-
-/* 375px and greater */
-@media(min-width: 23.4375rem){
-
-  .article {
-    width: 100%
-  }
-
-
-
-  .footer .glossy-button{
-    margin-right: 4.875rem;
-  }
-
 }

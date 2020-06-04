@@ -1,110 +1,165 @@
-/* CSS MEDIA QUERIES */
-
 @media( min-width: 18.75rem){
   
-  main .about-heading{
-     width: 100%;
-     font-size: 1.5rem;
-     padding-left: 50px;
-     margin-top: 85px;
-   }
+  .main-header{
+    height: 4.3rem;
+  }
+
+  .main-header .main-nav{
+    display: none;
+  }
+
+  .toggle-button{
+    width: 2rem;
+  }
+
+  .toggle-button__bar{
+    margin: 0.3rem 0;
+  }
+
+  .main-header > div {
+    padding-left: 1.25rem;
+    width: 100%;
+  }
+
+  .main-header > div a.main-header__brand{
+    display: none;
+  }
+    
+   .nav-link{
+     margin-right: 0;
+   } 
+
+   main .about-heading{
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 85px;
+    padding: 0.3125rem 3.125rem;
+  }
+
+  .main-header > div h6 {
+    display: inline-block;
+    font-size: 1.25rem;
+    color: rgb(22, 75, 77);
+    vertical-align: middle;
+    margin-left: 8rem;
+  }
+
+  .packages-container{
+    padding: 0px;
+    background-color: #f0f0f0;
+  }
+
+  .package{
+    margin: 20px 0px;
+    padding-top: 3.2rem;
+  }
+
+  .package:nth-child(2){
+      position: relative;
+  }
+
+  .package:nth-child(2) .package__image-container-2{
+    position: absolute;
+    left: 1.5rem;
+  }
+
+  .package:nth-child(2) .package-description-right button{
+    margin-top: 4rem;
+    margin-left: 0.5rem;
+  }
+
+  .package:nth-child(3) .package-description-left button{
+    margin-top: 5.2rem;
+    margin-right: 0.6rem;
+  }
+
+  .package:last-child {
+    padding-bottom: 3.2rem;
+    margin-bottom: 0px;
+  }
+
+  .package-image__style{
+    width: 85%;
+    height: 15rem;
+
+  }
+
+  .package button{
+    font-size: 1rem;
+    margin-top: 7.8rem;
+    margin-left: 0.55rem;
+    width: 92%;
+  }
+  
+  .package span{
+    font-size: 1.5rem;
+    padding-top: 6rem;
+  }
+
+  .package-description__background{
+    top: 4rem;
+    height: 75vh;
+  }
+
+  .package-description-left,
+  .package-description-right{
+    width: 85%;
+    height: 28rem;
+    padding: 20px;
+    background-color: #fff;
+  }
+
+
+  .package-description-right {
+    margin-top: 15rem;
+  }
+
+  .package-description-left h1,
+  .package-description-right h1{
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  .package-description-left p, 
+  .package-description-right p{
+    padding-bottom: 1rem;
+    font-size: 1.09rem;
+  }
+
+  .logo{
+    margin-bottom: 25px;
+  }
+
+  .footer{
+    margin-bottom: 25px;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .footer .glossy-button{
+    margin-right: 42px;
+  }
+
+  .footer h5{
+    text-align: center;
+  }
+
+  .mobile-nav__items{
+    padding: 0.5rem;
+    height: 92vh;
+  }
+
+  .mobile-nav__item:last-child a {
+    color: #fff;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-left: 5px;
+  }
+
+  .glossy-button {
+    background: linear-gradient(to right, rgb(83, 161, 161), hsl(191, 95%, 24%));
+  }
  
-   .packages-container{
-     padding: 0px;
-     background-color: #f0f0f0;
-   }
+
+}
  
-   .package{
-     margin: 20px 0px;
-     padding-top: 3.2rem;
-   }
- 
-   .package:nth-child(2){
-       position: relative;
-   }
- 
-   .package:nth-child(2) .package__image-container-2{
-     position: absolute;
-   }
- 
-   .package:nth-child(2) .package-description-right button{
-     margin-top: 4rem;
-     margin-left: 0.6rem;
-   }
- 
-   .package:nth-child(3) .package-description-left button{
-     margin-top: 5.2rem;
-     margin-right: 0.6rem;
-   }
- 
-   .package:last-child {
-     padding-bottom: 3.2rem;
-     margin-bottom: 0px;
-   }
- 
-   .package__image-container-2{
-     left: 1.5rem;
-   }
- 
-   .package-image__style{
-     width: 85%;
-     height: 10rem;
- 
-   }
- 
-   .package button{
-     font-size: 0.8rem;
-     margin-top: 7.8rem;
-     margin-left: 0.55rem;
-   }
-   
-   .package span{
-     font-size: 1.5rem;
-     padding-top: 4rem;
-   }
- 
-   .package:nth-child(2) .package-description-right button{
-     margin-left: 1.1rem;
-   }
- 
-   .package-description-left,
-   .package-description-right{
-     width: 85%;
-     height: 28rem;
-     padding: 20px;
-     background-color: #fff;
-   }
- 
- 
-   .package-description-right {
-     margin-top: 10rem;
-   }
- 
-   .package-description-left h1,
-   .package-description-right h1{
-     width: 100%;
-     font-size: 2rem;
-   }
- 
-   .package-description-left p, 
-   .package-description-right p{
-     padding-bottom: 1rem;
-     font-size: 1.09rem;
-   }
- 
-   .logo{
-     margin-bottom: 25px;
-   }
- 
-   .footer{
-     margin-bottom: 25px;
-   }
- 
-   .footer .glossy-button{
-     margin-right: 42px;
-   }
- 
-   .footer h5{
-     text-align: center;
-   }
- }

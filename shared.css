@@ -24,7 +24,7 @@ body{
 .main-header{
   background: #ffffff;
   width: 100%;
-  height: 85px;
+  height: 4.9rem;
   padding: 20px 10px;
   position: fixed;
   z-index: 2;
@@ -39,13 +39,13 @@ body{
 .main-header > div a{
   text-decoration: none;
   color: #758184;
-  font-weight: bolder;
+  font-size: 1rem;
   vertical-align: middle;
+  text-align: right;
 }
 
-
 .main-header__brand img{
-  height: 40px;
+  height: 3rem;
 }
 
 .main-header div{
@@ -104,20 +104,11 @@ body{
   margin: 0.6rem 0;
 }
 
-
-/* Glossy Button */
-.glossy-button a,
-.mobile-nav__item a:last-of-type{
-  text-decoration: none;
-  color: rgb(22, 2, 2);
-}
-
 .glossy-button{
   display: inline-block;
-  padding: 0 80px;
   margin-left: 20px;
   background: linear-gradient(to right, rgb(111, 240, 240), hsl(191, 85%, 51%));
-  padding: 15px 35px;
+  padding: 10px 30px;
   font-weight: bolder;
   border-radius: 50px;  
   letter-spacing: 0.8px;
@@ -235,11 +226,12 @@ body{
 
 .mobile-nav__items {
   width: 90%;
-  height: 100%;
+  height: 92vh;
   list-style: none;
   margin: 10% auto;
-  padding: 0;
+  padding: 0.5rem;
   text-align: center;
+  background: rgb(195, 221, 221);
 }
 
 .mobile-nav__item {
@@ -248,93 +240,9 @@ body{
 
 .mobile-nav__item a {
   font-size: 1.5rem;
+  color: #626d70;
 }
 
 .open{
   display: block !important;
-}
-
-/* Header CSS Media Queries */
-@media( min-width: 18.75rem ){
-
-  .main-header > div{
-    padding-left: 1.25rem;
-    width: 100%;
-  }
-  
-  .main-header > div a{
-    margin-left: 1rem;
-  }
-
-  .nav-link{
-    margin-right: 0px;
-  }
-
-  .main-header__brand img{
-    height: 2.4rem;
-  }
-
-  .footer{
-    width: 100%;
-    font-size: 1rem;
-  }
-
-  .main-nav{
-    display: none;
-  }
-
-  .toggle-button{
-    width: 2rem;
-  }
-  
-  .toggle-button__bar{
-    margin: 0.3rem 0;
-  }
-
-  .glossy-button{
-    display: inline-block;
-    margin-left: 1.25rem;
-    background: linear-gradient(to right, rgb(111, 240, 240), hsl(191, 85%, 51%));
-    padding: 15px 25px;
-    font-weight: bolder;
-    border-radius: 50px;  
-    letter-spacing: 0.8px;
-    word-spacing: 1.5px;
-    border: none;
-    outline: none;
-    color: #133444;
-  }
-  .section-title__features{
-    padding-bottom: 0px;
-    padding-top: 50px;
-    font-size: 1.6rem;
-  }
-
-  .key-feature{
-    margin-top: 40px;
-  }
-
-  #key-features{
-    width: 90%;
-    position: relative;
-    left: 4.6%;
-  }
-
-}
-
-/* 360px  */
-@media(min-width: 22.5rem){
-
-  .main-header > div a{
-    margin-left: 2.5rem;
-  }
-
-  .glossy-button{
-    margin-left: 2.5rem;
-  }
-
-  .nav-link__container .nav-link:last-child{
-    margin-left: 1.25rem;
-  }
-
 }

@@ -5,8 +5,14 @@
   <meta name="viewport" content="width=device-width initial-scale=1.0">
   <title>Domain Registration</title>
   <link href="https://fonts.googleapis.com/css?family=Anton|Montserrat&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="shared.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./shared.css">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./home-page-media-queries/300.css">
+  <link rel="stylesheet" href="./home-page-media-queries/360.css">
+  <link rel="stylesheet" href="./home-page-media-queries/375.css">
+  <link rel="stylesheet" href="./home-page-media-queries/411.css">
+  <link rel="stylesheet" href="./home-page-media-queries/768.css">
+  <link rel="stylesheet" href="./home-page-media-queries/1024.css">
   <script src="https://kit.fontawesome.com/7df8c17894.js" crossorigin="anonymous" defer></script>
   <script src="shared.js" defer></script>
 </head>
@@ -26,22 +32,30 @@
                         <span class="toggle-button__bar"></span>
                         <span class="toggle-button__bar"></span>
                     </button>
-                    <button class="glossy-button">Start Hosting</button>
+                    
                     <a href="index.html" class="main-header__brand">
                         <img src="./images/uhost-icon.png" alt="uHost - Web Hosting Company">
                     </a>
+
+                    <a href="#" class="glossy-button">Sign Up</a>
                 </div>
                 <nav class="main-nav">
                     <ul class="main-nav__items">
-                    <li class="main-nav__item"><a href="/packages/index.html">Packages</a></li>
-                    <li class="main-nav__item"><a href="/customers/index.html">Customers</a></li>
-                    <li class="main-nav__item"><a href="/about/index.html">About</a></li>
+                    <li class="main-nav__item"><a href="./packages/index.html">Packages</a></li>
+                    <li class="main-nav__item"><a href="./customers/index.html">Customers</a></li>
+                    <li class="main-nav__item"><a href="./about/index.html">About</a></li>
                     <button class="glossy-button">Start Hosting</button>
                     </ul>
                 </nav>
         </header>
         <nav class="mobile-nav">
             <ul class="mobile-nav__items">
+                
+                <li class="mobile-nav__item">
+                    <a href="index.html" class="main-header__brand">
+                        <img src="./images/uhost-icon.png" alt="uHost - Web Hosting Company">
+                    </a>
+                </li>
                 <li class="mobile-nav__item">
                     <a href="./packages/index.html">Packages</a>
                 </li>
@@ -51,14 +65,18 @@
                 <li class="mobile-nav__item">
                     <a href="./about/index.html">About</a>
                 </li>
+                <li class="mobile-nav__item">
+                    <a href="./index.html" class="glossy-button">Start Hosting</a>
+                </li>
             </ul>
         </nav>
   <main>
     <section id="product-overview">
         <h1>Get the freedom you deserve.</h1>
     </section>
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" class="svg-inline--fa fa-angle-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg>
     <section id="plans">
-        <h1 class="section-title">Choose Your Plan</h1>
+        <h1 class="section-title">Choose your plan</h1>
         <div>
             <article class="plan">
                 <h1 class="plan__title">FREE</h1>
