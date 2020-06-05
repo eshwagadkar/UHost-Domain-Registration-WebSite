@@ -2,6 +2,12 @@
   background-color: #f4f4f4;
 }
 
+.dotted-border{
+  border-bottom: 8px dotted rgb(187, 227, 228);
+  width: 20%;
+  margin-left: 38%;
+}
+
 .testimonial{
   width: 100%;
   height: 100%;

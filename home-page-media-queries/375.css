@@ -1,4 +1,21 @@
-@media(min-width: 23.4375rem){
+/* Iphone 6/7/8 */
+@media(min-width: 23.4375rem) and (min-height: 41.6875rem){
+
+  #product-overview{
+    height: 79vh;
+  }
+
+  #product-overview h1{
+    top: 27rem;
+  }
+
+  main > svg {
+    margin-top: 6rem;
+  }
+
+  .main-header > div a.glossy-button{
+    margin-left: 8rem;
+  }
 
   .article {
     width: 100%
@@ -6,6 +23,32 @@
 
   .footer .glossy-button{
     margin-right: 4.875rem;
+  }
+
+  .button-license__container{
+    margin-bottom: 0rem;
+    margin-left: 0.4rem;
+  }
+
+  .button-license__container h5{
+    margin-right: 2rem;
+  }
+}
+
+/* Iphone X */
+@media(min-width: 23.4375rem) and (min-height: 50.75rem){
+
+  #product-overview{
+    height: 77.5vh;
+  }
+
+  #product-overview h1{
+    top: 33rem;
+  }
+
+  .button-license__container h5{
+    margin: 2rem 1rem 2rem 0rem;
+    padding-top: 0rem;
   }
 
 }

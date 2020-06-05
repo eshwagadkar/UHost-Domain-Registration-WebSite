@@ -1,4 +1,47 @@
-@media( min-width: 25.875rem){
-  
+/* Pixel2 */
+@media( min-width: 25.6875rem) and (min-height: 45.6875rem ){ 
+
+  .main-header > div a.glossy-button{
+    margin-left: 10rem;
+  }
+
+  #product-overview{
+    height: 80vh;
+  }
+
+  #product-overview h1{
+    top: 30.5rem;
+  }
+
+  main > svg{
+    margin-top: 6.2rem;
+  }
+
+  .section-title__features{
+    font-size: 1.5rem;
+  }
+
+  .footer .glossy-button{
+    margin-right: 5.9rem;
+  }
+
+}
+
+/* Pixel2 XL */
+@media( min-width: 25.6875rem) and (min-height: 51.4375rem ) {
+
+  #product-overview{
+    height: 75vh;
+  }
+ 
+  main > svg{
+    margin-top: 6.5rem;
+  }
+
+
+  #product-overview h1{
+    top: 32rem;
+  }
+
 
 }

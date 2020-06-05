@@ -32,6 +32,10 @@
     padding-top: 5.9rem;
   }
 
+  .testimonial:last-child{
+    padding: 0.625rem;
+  }
+
   .testimonial__name{
     font-size: 2rem;
   }

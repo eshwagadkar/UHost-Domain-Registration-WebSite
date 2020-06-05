@@ -8,6 +8,10 @@
     padding-left: 4.6rem;
   }
 
+  .main-header > div h6{
+    margin-left: 8rem;
+  }
+  
   .package button {
     margin-left: 1rem;
   }
@@ -34,5 +38,19 @@
 
   .package-description-left p, .package-description-right p{
     font-size: 1.2rem;
+  }
+
+  .footer .glossy-button{
+    margin-right: 4.875rem;
+  }
+
+  .button-license__container{
+    margin-bottom: 0rem;
+    margin-left: 0.4rem;
+  }
+
+  .button-license__container h5{
+    margin: 2rem 2rem 2rem 0rem;
+    padding-top: 0rem;
   }
 }
