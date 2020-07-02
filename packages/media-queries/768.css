@@ -1,0 +1,63 @@
+@media(min-width: 48rem){
+
+  .toggle-button{
+    display: none;
+  }
+
+  .main-header{
+    height: 4.6rem;
+  }
+
+  .main-header > div a.main-header__brand{
+    display: inline-block;
+    margin-left: 3rem;
+  }
+
+  .main-header__brand img{
+    height: 2.5rem;
+    vertical-align: top;
+
+  }
+  
+  .main-header > div h6{
+    margin-left: 25rem;
+  }
+
+  .package{
+    width: 65%;
+  }
+
+  .package h1, h2, h3, p{
+    font-size: 2rem;
+  }
+
+  .package p{
+    padding: 8%;
+  }
+
+  .package h3{
+    font-size: 1.1rem;
+    left: 18rem;
+  }
+
+  .logo h1{
+    font-size: 2.5rem;
+  }
+
+  .button-license__container h5{
+    margin: 2rem 1.2rem 0rem 0rem;
+    font-size: 1.3rem;
+    height: 3rem;
+  }
+
+  .nav-link__list a{
+    font-size: 1.5rem;
+  }
+
+  .footer .glossy-button{
+    position: relative;
+    bottom: 140px;
+    font-size: 1.2rem;
+    margin-right: 4.2rem;
+  }
+}

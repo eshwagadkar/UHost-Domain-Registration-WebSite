@@ -1,9 +1,6 @@
 @media(min-width:25.875rem) {
-
   .button-license__container h5{
-    height: 5rem;
-    padding-top: 1rem;
     margin: 2rem 1.2rem 2rem 0rem;
+    padding-top: 0rem;
   }
-
 }

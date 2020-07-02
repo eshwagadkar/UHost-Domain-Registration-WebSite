@@ -54,13 +54,17 @@
   .button-license__container h5{
     margin-right: 2rem;
   }
+
+  .footer h5{
+    margin: 0rem 1rem 2rem 0rem;
+  }
 }
 
 /* Iphone X */
 @media(min-width: 23.4375rem) and (min-height: 50.75rem){
 
   .package-description__background{
-    height: 38.3rem;
+    height: 40rem;
   }
 
   .button-license__container h5{

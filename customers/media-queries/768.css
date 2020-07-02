@@ -1,31 +1,78 @@
 @media(min-width: 48rem){
   
-    .toggle-button{
-      display: none;
-    }
+  /* Header */
+  .toggle-button{
+    display: none;
+  }
+
+  .main-header{
+    height: 4.6rem;
+  }
+
+  .main-header > div a.main-header__brand{
+    display: inline-block;
+    margin-left: 3rem;
+  }
+
+  .main-header__brand img{
+    height: 2.5rem;
+    vertical-align: top;
+
+  }
   
-  
-    .main-nav{
-      display: inline-block;
-      width: 60%;
-      padding-left: 0rem;
-    }
-  
-    .main-header > div{
-      display: inline-block;
-      width: 20%;
-    }
-  
-    .main-header__brand img{
-      height: 3.4rem;
-    }
-  
-    .main-nav__items{
-      padding-right: 0rem;
-    }
-  
-    .main-nav{
-      padding-left: 4rem;
-    }
+  .main-header > div h6{
+    margin-left: 25rem;
+  }
+
+  /* Content */
+  .testimonial__image-container{
+    display: inline-block;
+    width: 50%;
+  }
+
+  .testimonial__info{
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+    text-align: left;
+    padding: 0px 20px 0px 20px;
+    min-width: 333px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+
+  .testimonial__info h1{
+    font-size: 2.2rem;
+  }
+
+  .dotted-border {
+    padding-top: 3rem;
+  }
+
+  .testimonial:last-child{
+    padding-bottom: 2rem;
+  }
+
+  /* Footer */
+  .logo h1{
+    font-size: 2.5rem;
+  }
+
+  .button-license__container h5{
+    margin: 2rem 1.2rem 0rem 0rem;
+    font-size: 1.3rem;
+    height: 3rem;
+  }
+
+  .nav-link__list a{
+    font-size: 1.5rem;
+  }
+
+  .footer .glossy-button{
+    position: relative;
+    bottom: 140px;
+    font-size: 1.2rem;
+    margin-right: 4.2rem;
+  }
 
   }

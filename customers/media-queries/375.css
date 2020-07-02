@@ -1,4 +1,4 @@
-@media(min-width: 23.4375rem){
+@media(min-width: 23.4375rem) and (min-height: 41.6875rem){
 
   .main-header > div h6{
     margin-left: 8rem;
@@ -25,5 +25,22 @@
   .button-license__container h5{
     margin: 2rem 1rem 2rem 0rem;
     padding-top: 0rem;
+  }
+}
+
+
+/* Iphone X */
+@media(min-width: 23.4375rem) and (min-height: 50.75rem){
+
+  .testimonial__image{
+    height: 15rem;
+  }
+
+  .testimonial__subtitle{
+    font-size: 1.3rem;
+  }
+
+  .testimonial{
+    font-size: 1.5rem;
   }
 }

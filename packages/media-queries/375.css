@@ -12,6 +12,25 @@
     margin-left: 8rem;
   }
   
+  .package p{
+    font-size: 1.3rem;
+  }
+
+  .package h1, h2{
+    font-size: 1.9rem;
+  }
+  
+  .package h2{
+    margin-top: 0.5rem;
+  }
+  
+  .package h3{
+    top: 5rem;
+    left: 10rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+  }
+
   .package button {
     margin-left: 1rem;
   }
@@ -52,5 +71,10 @@
   .button-license__container h5{
     margin: 2rem 2rem 2rem 0rem;
     padding-top: 0rem;
+  }
+
+  .footer h5{
+    margin: 0rem 1rem 2rem 0rem;
+    padding-top: 30px;
   }
 }

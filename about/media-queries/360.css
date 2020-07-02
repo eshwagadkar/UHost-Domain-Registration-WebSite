@@ -16,7 +16,7 @@
     }
     
     .footer .glossy-button{
-      margin-right: 4.375rem;
+      margin-right: 3.7rem;
       padding: 0.9375rem 1.875rem;
     }
 
@@ -44,4 +44,9 @@
     .package:nth-child(2) .package__image-container-2{
       left: 1.7rem;
     }
+
+    .footer-main{
+      padding-bottom: 0.2rem;
+    }
+  
 }

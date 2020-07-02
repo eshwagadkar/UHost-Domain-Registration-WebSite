@@ -1,0 +1,107 @@
+@media(min-width: 48rem){
+
+  .toggle-button{
+    display: none;
+  }
+
+  .main-header > div{
+    width: 20%;
+    vertical-align: top;
+  }
+
+  .main-header > div a.main-header__brand{
+    display: inline-block;
+  }
+
+  .main-header__brand img{
+    height: 2.5rem;
+  }
+
+  .main-header > div a.glossy-button{
+    display: none;
+  }
+
+  .main-nav{
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
+    text-align: center;
+  }
+  
+  .main-nav__items{
+    padding-right: 0;
+  }
+
+  .main-nav__item{
+    font-size: 1.1rem;
+  }
+
+  .main-nav__item:hover, .main-nav__item:focus{
+    padding-bottom: 1.6em;
+  } 
+
+  main > svg{
+    display: none;
+  }
+
+  .key-feature {
+    width: 35%;
+  }
+
+  #product-overview{
+    height: 40vh;
+  }
+
+  #product-overview h1{
+    top: 22rem;
+  }
+
+  .section-title{
+    margin-top: 5.625rem;
+  }
+
+  .plan{
+    width: 30%;
+  }
+
+  #key-features{
+    width: 100%;
+    left: 0;
+  }
+
+  .articles{
+    width: 100%;
+    margin: 0;
+  }
+
+  .article{
+    display: inline-block;
+    width: 45%;
+  }
+
+  .style__article-img,
+  .article-description{
+    width: 100%;
+  }
+
+  .logo h1{
+    font-size: 2.5rem;
+  }
+
+  .button-license__container h5{
+    margin: 2rem 1.2rem 0rem 0rem;
+    font-size: 1.3rem;
+    height: 3rem;
+  }
+
+  .nav-link__list a{
+    font-size: 1.5rem;
+  }
+
+  .footer .glossy-button{
+    position: relative;
+    bottom: 140px;
+    font-size: 1.2rem;
+    margin-right: 4.2rem;
+  }
+}

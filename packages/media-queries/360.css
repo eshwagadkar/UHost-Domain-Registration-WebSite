@@ -9,7 +9,26 @@
     }
     
     .footer .glossy-button{
-      margin-right: 4.375rem;
+      margin-right: 3.7rem;
+    }
+
+    .package h1{
+      font-size: 1.8rem;
+    }
+
+    .package:first-child h2{
+      font-size: 1.6rem;
+      margin-top: 1.2rem;
+    }
+
+    .package h3{
+      left: 8rem;
+      top: 5.2rem;
+      font-size: 1rem;
+    }
+    
+    .package p{
+      font-size: 1.33rem;
     }
 
     .package button{
@@ -33,4 +52,8 @@
       font-size: 1.15rem;
     }
 
+    .footer-main{
+      padding-bottom: 0.2rem;
+    }
+  
 }

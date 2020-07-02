@@ -4,8 +4,35 @@
     margin-left: 11rem;
   }
 
+  .package{
+    width: 80%;
+  }
+
+  .packages-container section:first-of-type{
+    top: 1.8rem;
+  }
+
+  .package h1{
+    font-size: 2.2rem;
+  }
+   
+  .package h2{
+    font-size: 2rem;
+  }
+
+  .package p{
+    font-size: 1.5rem;
+  }
+  
+  .package h2{
+    margin-top: 1.5rem;
+  }
+  
   .package h3{
-    left: 12rem;
+    top: 6rem;
+    left: 10rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
   }
 
   .footer .glossy-button{

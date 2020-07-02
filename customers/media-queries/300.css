@@ -99,5 +99,10 @@
   .glossy-button {
     background: linear-gradient(to right, rgb(83, 161, 161), hsl(191, 95%, 24%));
   }
+
+  .footer-main{
+    padding-bottom: 0.2rem;
+  }
+
 }
 
