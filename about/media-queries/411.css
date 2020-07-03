@@ -9,11 +9,12 @@
   }
 
   .package-description__background{
-    height: 36.6rem;
+    height: 34rem;
   }
 
   main .about-heading {
-    padding-left: 5.8rem;
+    padding-left: 9rem;
+    font-size: 1.9rem;
   }
 
 
@@ -55,5 +56,12 @@
 
   .footer .glossy-button{
     margin-right: 5.9rem;
+  }
+}
+
+@media( min-width: 25.6875rem) and (min-height: 51.4375rem ) {
+
+  .package-description__background{
+    height: 40rem;
   }
 }

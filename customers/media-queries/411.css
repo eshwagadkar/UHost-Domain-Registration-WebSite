@@ -11,6 +11,14 @@
     font-size: 3rem;
   }
 
+  .testimonial__subtitle{
+    font-size: 1.4rem;
+  }
+
+  .testimonial__text{
+    font-size: 1.3rem;
+  }
+
   .footer .glossy-button{
     margin-right: 5.9rem;
   }

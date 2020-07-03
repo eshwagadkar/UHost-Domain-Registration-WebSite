@@ -13,7 +13,7 @@
   }
   
   .package p{
-    font-size: 1.3rem;
+    font-size: 1.49rem;
   }
 
   .package h1, h2{
@@ -26,7 +26,7 @@
   
   .package h3{
     top: 5rem;
-    left: 10rem;
+    left: 7rem;
     font-weight: bold;
     letter-spacing: 0.1rem;
   }
@@ -78,3 +78,18 @@
     padding-top: 30px;
   }
 }
+
+
+@media(min-width: 23.4375rem) and (min-height: 50.75rem){
+
+  .package h1{
+    font-size: 2rem;
+  }
+
+  .package:first-child h2,
+  .package h2{
+    font-size: 1.8rem;
+  }
+
+}
+

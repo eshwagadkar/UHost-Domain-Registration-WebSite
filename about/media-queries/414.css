@@ -1,7 +1,11 @@
 @media(min-width:25.875rem) {
   
+  main .about-heading{
+    padding-left: 4.5rem;
+  }
+
   .package-description__background{
-    height: 37.5rem;
+    height: 36.5rem;
   }
 
   

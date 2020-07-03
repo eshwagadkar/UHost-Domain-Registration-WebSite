@@ -1,0 +1,13 @@
+@media( min-width:64rem){
+  #product-overview h1{
+    top: 30rem;
+    font-size: 2.5rem;
+  }
+ 
+ 
+  .footer-main{
+    padding-bottom: 45px;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+  }
+}

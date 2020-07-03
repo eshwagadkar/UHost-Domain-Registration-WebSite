@@ -190,5 +190,10 @@
       margin-right: 4.2rem;
     }
   
+    .footer-main{
+      padding-bottom: 45px;
+      padding-left: 6.25rem;
+      padding-right: 6.25rem;
+    }
   
 }
