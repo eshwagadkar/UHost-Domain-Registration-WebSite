@@ -291,7 +291,7 @@ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0 , 0.5);
 .modal__action--negative {
   background: red;
   border-color: red;
-}
+} 
 
 .modal__action--negative:hover,
 .modal__action--negative:active {
