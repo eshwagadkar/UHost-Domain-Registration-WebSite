@@ -48,6 +48,10 @@ body{
   height: 3rem;
 }
 
+.main-header h1{
+  display: none;
+}
+
 .main-header div{
   vertical-align: top;
 }

@@ -1,0 +1,27 @@
+@media(min-width: 83.1875rem){
+
+  .main-header > div h6{
+    margin-left: 70rem;
+  }
+
+  .testimonial{
+    padding-top: 10rem;
+  }
+
+  .testimonial__info h1 {
+    font-size: 2.8rem;
+  }
+  
+  .testimonial__subtitle{
+    font-size: 1.7rem;
+  }
+  
+  .testimonial__text {
+    font-size: 1.5rem;
+  }
+
+  .footer .glossy-button {
+    margin-right: 14.6rem;
+  }
+
+}

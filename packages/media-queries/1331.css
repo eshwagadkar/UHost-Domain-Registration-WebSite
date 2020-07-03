@@ -1,0 +1,14 @@
+@media(min-width: 83.1875rem){
+
+  .main-header > div h6{
+    margin-left: 70rem;
+  }
+
+  .footer .glossy-button {
+    margin-right: 14.6rem;
+  }
+  
+  .package{
+    width: 50%;
+  }
+}
