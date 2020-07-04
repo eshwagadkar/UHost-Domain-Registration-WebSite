@@ -10,8 +10,34 @@
 
   .package-description__background {
     height: 32rem;
+    background: linear-gradient(to top, rgba(211, 206, 206, 0.5) 100%, transparent), url(/images/packages-background.jpg) right 40% top 10%/cover no-repeat;
+    background-size: cover;
+    background-position: right 40% top 10%;
+    background-repeat: no-repeat;
+    position: relative;
     top: 4.6rem;
   }
+
+  .package__image-container-1 {
+    background: url(/images/email-domain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .package__image-container-2 {
+    background: url(/images/web-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.package__image-container-3 {
+  background: url(/images/business.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
   main .about-heading{
     padding-left: 16rem;
