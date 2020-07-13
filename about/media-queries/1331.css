@@ -10,8 +10,8 @@
 
   .package-description__background {
     height: 32rem;
-    background: linear-gradient(to top, rgba(211, 206, 206, 0.5) 100%, transparent), url(/images/packages-background.jpg) right 40% top 10%/cover no-repeat;
-    position: relative;
+    /* background: linear-gradient(to top, rgba(211, 206, 206, 0.5) 100%, transparent), url(/images/packages-background.jpg) right 40% top 10%/cover no-repeat; */
+    /* position: relative; */
     top: 4.6rem;
   }
 
