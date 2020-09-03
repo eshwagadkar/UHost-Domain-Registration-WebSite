@@ -11,9 +11,9 @@
   
     }
 
-    main .about-heading{
+    /* main .about-heading{
       padding-left: 4.07rem;
-    }
+    } */
     
     .footer .glossy-button{
       margin-right: 3.7rem;
@@ -27,22 +27,20 @@
       padding: 1.25rem 3.3rem;
     }
     
-    .package:nth-child(2) .package-description-right button{
+    .package:nth-child(2) button{
       margin-left: 0.6rem;
+      margin-top: 3rem;
+
     }
     
-    .package:nth-child(3) .package-description-left button{
+    .package:nth-child(3) button{
       margin-top: 5.5rem;
       margin-right: 0.3rem;
       margin-left: 0.6rem;
     }
 
-    .package-description-left p, .package-description-right p {
+    .package-description-left p {
       font-size: 1.15rem;
-    }
-
-    .package:nth-child(2) .package__image-container-2{
-      left: 1.7rem;
     }
 
     .footer-main{

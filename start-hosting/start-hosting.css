@@ -1,0 +1,12 @@
+.signup-form :invalid{
+    border-color: red !important;
+    background-color: rgb(253, 158, 158);
+}
+
+.signup-form button[disabled]{
+    cursor: not-allowed;
+    color: rgb(80, 80, 80);;
+    border: 1px solid rgb(80, 80, 80);;
+    background-color: rgb(202, 197, 197);
+    padding: 0.5rem;
+}

@@ -1,0 +1,41 @@
+@media(min-width:28.125rem) and (min-height:37.5rem){
+
+    .package:first-child h2,
+    .package h2 {
+        font-size: 1.5rem;
+    }
+
+
+    .package p {
+        font-size: 1.4rem;
+    }
+
+    .nav-link__container{
+        width: 49%;
+    }
+
+    .button-license__container{
+        width: 48%;
+        text-align: center;
+        vertical-align: baseline;
+
+    }
+
+    .nav-link__list a{
+        font-size: 0.8rem;
+    }
+
+    .footer-main{
+        padding: 20px 0 10px 20px;
+    }
+
+    .footer .glossy-button{
+        margin-right: 0;
+    }
+
+    .button-license__container h5{
+        margin-right: 0;
+        /* padding-bottom: 20px; */
+    }
+
+}

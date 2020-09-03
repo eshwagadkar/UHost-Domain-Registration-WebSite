@@ -1,0 +1,29 @@
+@media(min-width:32.5rem){
+
+    .package h3{
+        left: 15rem;
+    }
+
+    .nav-link__container{
+        width: 50%;
+    }
+
+    .button-license__container{
+        width: 45%;
+        text-align: center;
+    }
+
+    .nav-link__list a{
+        font-size: 0.8rem;
+    }
+
+    .footer .glossy-button{
+        margin-right: 0;
+    }
+
+    .button-license__container h5{
+        margin-right: 0;
+    }
+
+
+}

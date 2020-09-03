@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>uHost Signup</title>
+    <link rel="icon" href="../images/uhost-icon.png">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Anton|Montserrat:400,700" rel="stylesheet"> -->
+    <link rel="stylesheet" href="../shared.css">
+    <link rel="stylesheet" href="./start-hosting.css">
+    <link rel="stylesheet" href="./media-queries/300.css">
+    <link rel="stylesheet" href="./media-queries/360.css">
+    <link rel="stylesheet" href="./media-queries/375.css">
+    <link rel="stylesheet" href="./media-queries/411.css">
+    <link rel="stylesheet" href="./media-queries/414.css">
+    <link rel="stylesheet" href="./media-queries/450.css">
+    <link rel="stylesheet" href="./media-queries/460.css">
+    <link rel="stylesheet" href="./media-queries/480.css">
+    <link rel="stylesheet" href="./media-queries/500.css">
+    <link rel="stylesheet" href="./media-queries/520.css">
+    <link rel="stylesheet" href="./media-queries/692.css">
+    <link rel="stylesheet" href="./media-queries/768.css">
+    <link rel="stylesheet" href="./media-queries/1024.css">
+    <link rel="stylesheet" href="./media-queries/1331.css">
+    <script src="../shared.js" defer></script>
+</head>
+
+<body>
+    <div class="backdrop"></div>
+    <header class="main-header">
+        <div>
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
+            <a href="../index.html" class="main-header__brand">
+                <img src="../images/uhost-icon.png" alt="uHost - Your favorite hosting company">
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item">
+                    <a href="../packages/index.html">Packages</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="../customers/index.html">Customers</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="../about/index.html">About</a>
+                </li>
+                <li class="main-nav__item main-nav__item--cta">
+                    <a href="../start-hosting/index.html">Start Hosting</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item">
+                <a href="../packages/index.html">Packages</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="../customers/index.html">Customers</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="../about/index.html">About</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="signup-page">
+        <h1 class="signup-title">Awesome! Let's dive right in!</h1>
+        <form action="index.html" class="signup-form">
+            <label for="title">Title</label>
+            <select id="title">
+                <option value="mr">Mr.</option>
+                <option value="ms">Ms.</option>
+            </select>
+            <label for="first-name">First name</label>
+            <input type="text" id="first-name" required>
+            <label for="last-name">Last name</label>
+            <input type="text" id="last-name" required>
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" required>
+            <input type="checkbox" id="agree-terms">
+            <label for="agree-terms">Agree to<a href="#">Terms &amp; Conditions</a></label>
+            <button type="submit" class="button" disabled>Sign Up</button>
+        </form>
+    </main>
+    
+    <footer class="footer-main">
+        <div class="logo">
+            <h1>uHost</h1>
+        </div>
+        <div class="footer social-media__container">
+            <ul class="social-media__icons">
+                <li class="social-media__icon"><a href="#"><i class="fab fa-2x fa-instagram"></i></a></li>
+                <li class="social-media__icon"><a href="#"><i class="fab fa-2x fa-youtube"></i></a></li>
+                <li class="social-media__icon"><a href="#"><i class="fab fa-2x fa-facebook-square"></i></a></li>
+                <li class="social-media__icon"><a href="#"><i class="fab fa-2x fa-twitter"></i></a></li>
+                <li class="social-media__icon"><a href="#"><i class="fab fa-2x fa-pinterest"></i></a></li>
+            </ul>
+        </div>
+    
+        <div class="footer nav-link__container">
+            <div class="nav-link">
+                <ul class="nav-link__lists">
+                    <li class="nav-link__list"><a href="#">About Us</a></li>
+                    <li class="nav-link__list"><a href="#">Contact</a></li>
+                    <li class="nav-link__list"><a href="#">Blog</a></li>
+                </ul>
+            </div> 
+            <div class="nav-link">
+                <ul class="nav-link__lists">
+                    <li class="nav-link__list"><a href="#">Carriers</a></li>
+                    <li class="nav-link__list"><a href="#">Support</a></li>
+                    <li class="nav-link__list"><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="footer button-license__container">
+            <button class="glossy-button">Start Hosting</button>
+            <h5>&copy; uHost All Rights Reserved </h5>
+        </div>
+    </footer>
+</body>
+
+</html>

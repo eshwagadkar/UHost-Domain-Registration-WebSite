@@ -1,0 +1,58 @@
+@media(min-width:28.125rem) and (min-height:43.75rem){
+  
+    .main-header > div a.glossy-button {
+        margin-left: 12rem;
+    }
+
+    #product-overview{
+        height: 80vh;
+    }
+
+    #product-overview h1 {
+        left: 10px;
+        top: 30rem;
+        font-size: 1.65rem;
+    }
+
+
+    .nav-link__container {
+        display: inline-block;
+        width: 70%;
+    }
+
+    .button-license__container{
+        display: inline-block;
+        width: 70%;
+        text-align: center;
+        margin: 0 40px 32px 50px;
+    }
+
+    .footer .glossy-button{
+        margin: 16px auto;
+    }
+
+    .button-license__container h5{
+        margin: 9px auto;
+    }
+    
+}
+
+/* 492px and above */
+@media(min-width:30.75rem){
+
+    .nav-link__container {
+        width: 58%;
+        margin: 10px 0 0 0;
+    }
+
+    .button-license__container{
+        width: 40%;
+        margin: 0;
+    }
+
+    .footer-main {
+        padding-bottom: 45px;
+    }
+
+}
+

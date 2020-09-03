@@ -1,0 +1,25 @@
+@media(min-width: 83.1875rem){
+
+    .toggle-button{
+        display: none;
+    }
+
+    .main-header > div a.main-header__brand{
+        display: inline-block;
+    }
+
+    .main-header__brand img{
+        height: 2.3rem;
+    }
+
+    .signup-form {
+        padding: 1rem;
+        width: 35%;
+        margin: auto;
+    }
+    
+    .footer .glossy-button{
+        margin-right: 16rem;
+    }
+
+}

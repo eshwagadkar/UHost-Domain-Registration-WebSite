@@ -58,17 +58,12 @@
       position: relative;
   }
 
-  .package:nth-child(2) .package__image-container-2{
-    position: absolute;
-    left: 1.5rem;
-  }
-
-  .package:nth-child(2) .package-description-right button{
+  .package:nth-child(2) button{
     margin-top: 4rem;
     margin-left: 0.5rem;
   }
 
-  .package:nth-child(3) .package-description-left button{
+  .package:nth-child(3) button{
     margin-top: 5.2rem;
     margin-right: 0.6rem;
   }
@@ -92,7 +87,7 @@
   }
   
   .package span{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding-top: 6rem;
   }
 
@@ -101,27 +96,19 @@
     height: 75vh;
   }
 
-  .package-description-left,
-  .package-description-right{
+  .package-description-left{
     width: 85%;
     height: 28rem;
     padding: 20px;
     background-color: #fff;
   }
 
-
-  .package-description-right {
-    margin-top: 15rem;
-  }
-
-  .package-description-left h1,
-  .package-description-right h1{
+  .package-description-left h1{
     width: 100%;
     font-size: 2rem;
   }
 
-  .package-description-left p, 
-  .package-description-right p{
+  .package-description-left p{
     padding-bottom: 1rem;
     font-size: 1.09rem;
   }

@@ -1,0 +1,57 @@
+@media(min-width:67.3125rem){
+
+        /* Main Header */
+        .main-header > div {
+            width: 30%;
+            padding-left: 0.625rem;
+        }
+    
+        .main-header > div a.main-header__brand {
+            display: inline-block;
+            margin-left: 1.25rem;
+        }
+    
+        .main-header__brand img {
+            height: 2.5rem;
+        }
+    
+        .main-header h1 {
+            display: inline-block;
+            font-size: 0.95rem;
+            margin-left: 1.25rem;
+            color: cadetblue;
+        }
+    
+        .main-nav {
+            width: 60%;
+            text-align: right;
+        }
+    
+        
+        .glossy-button{
+            background: linear-gradient(to right, rgb(111, 240, 240), hsl(191, 61%, 37%));
+            color: #fff;
+            
+        }
+
+        .glossy-button:hover{
+            background: linear-gradient(to right, rgb(83, 161, 161), hsl(191, 95%, 24%));
+            color: #fff;
+        }
+    
+    
+        #product-overview{
+            height: 75vh;
+        }
+    
+        #product-overview h1{
+            top: 28rem;
+            font-size: 2.5rem;
+        }
+
+
+        .footer .glossy-button{
+            margin-left: 6rem;
+        }
+        
+    }

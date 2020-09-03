@@ -1,0 +1,7 @@
+@media(min-width:37.5rem){
+
+    .package:nth-child(2) button{
+        margin-top: 3rem;
+    }
+
+}       

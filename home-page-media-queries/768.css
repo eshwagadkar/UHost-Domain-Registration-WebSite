@@ -23,7 +23,7 @@
 
   .main-nav{
     display: inline-block;
-    width: 75%;
+    width: calc(100% - 160px);
     vertical-align: top;
     text-align: center;
   }
@@ -35,10 +35,6 @@
   .main-nav__item{
     font-size: 1.1rem;
   }
-
-  .main-nav__item:hover, .main-nav__item:focus{
-    padding-bottom: 1.6em;
-  } 
 
   .glossy-button{
     color: #fff;
@@ -53,15 +49,17 @@
   }
 
   #product-overview{
-    height: 40vh;
+    height: 70vh;
   }
 
   #product-overview h1{
-    top: 22rem;
+    top: 25rem;
+    font-size: 2.3rem;
   }
 
   .section-title{
     margin-top: 5.625rem;
+    padding-top: 2rem;
   }
 
   .plan{
@@ -98,7 +96,8 @@
   }
 
   .button-license__container h5{
-    margin-top: 2.5rem;
+    margin-top: 1.25rem;
+    margin-right: 0rem;
     font-size: 1.2rem;
     height: 3rem;
     width: 300px;
@@ -116,6 +115,18 @@
   .footer .glossy-button{
     width: 230px;
     font-size: 1.3rem;
-    margin-right: 5.3rem;
   }
+}
+
+@media(min-width:48rem) and (min-height:64rem){
+
+  #product-overview{
+    height: 55vh;
+  }
+
+  #product-overview h1{
+    top: 30rem;
+    font-size: 2.3rem;
+  }
+
 }

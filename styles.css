@@ -9,12 +9,13 @@
 
 #product-overview h1{
   color: #fff;
-  font-family: 'Anton', sans-serif;
+  font-family: 'anton-regular', sans-serif;
+  font-style: italic;
   padding: 6.25rem 3.125rem;
   letter-spacing: 0.2rem;
   word-spacing: 0.2rem;
   text-shadow: 1px 1px 6px black;
-  font-size: 1.6rem;
+  /* font-size: 1.6rem; */
 }
 
 #plans > div {

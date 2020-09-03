@@ -1,3 +1,44 @@
+/* @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700"); 
+   @import url("https://fonts.googleapis.com/css?family=Anton");
+   @import url("https://fonts.googleapis.com/css?family=Roboto:400,900"); 
+*/
+
+@font-face {
+  font-family: 'montserrat-regular';
+  src: url('./fonts/montserrat-regular.ttf');
+}
+
+@font-face {
+  font-family: 'montserrat-italic';
+  src: url('./fonts/montserrat-italic.ttf');
+}
+
+@font-face {
+  font-family: 'montserrat-bold';
+  src: url('./fonts/montserrat-bold.ttf');
+}
+ 
+@font-face {
+  font-family: 'anton-regular';
+  src: url('./fonts/anton-regular.ttf');
+}
+
+@font-face {
+  font-family: 'roboto-regular';
+  src: url('./fonts/roboto-regular.ttf');
+}
+
+@font-face {
+  font-family: 'roboto-bold';
+  src: url('./fonts/roboto-bold.ttf');
+}
+
+@font-face {
+  font-family: 'roboto-italic';
+  src: url('./fonts/roboto-italic.ttf');
+}
+
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -5,7 +46,7 @@
 }
 
 body{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'montserrat-regular', sans-serif;
   /* position: static; */
 }
 
@@ -79,10 +120,9 @@ body{
   color: #758184;
 } 
 
-.main-nav__item:hover,
-.main-nav__item:focus{
+.main-nav__item:hover, .main-nav__item:focus{
+  padding-bottom: 1.4em;
   border-bottom: 4px solid cadetblue;
-  padding-bottom: 30px;
 } 
 
 /* Toggle Button */
@@ -112,7 +152,7 @@ body{
 .glossy-button{
   display: inline-block;
   margin-left: 20px;
-  background: linear-gradient(to right, rgb(111, 240, 240), hsl(191, 85%, 51%));
+  background: linear-gradient(to right, rgb(111, 240, 240), hsl(191, 61%, 37%));
   padding: 10px 30px;
   font-weight: bolder;
   border-radius: 50px;  
@@ -121,10 +161,11 @@ body{
   border: none;
   outline: none;
   color: #133444;
+  text-decoration: none;
 }
 
-.glossy-button:hover,
-.mobile-nav__item--cta:hover{
+
+.glossy-button:hover{
   background: linear-gradient(to right, rgb(83, 161, 161), hsl(191, 95%, 24%));
   color: #fff;
 }
@@ -192,7 +233,7 @@ body{
 }
 
 .button-license__container{
-  text-align: right;
+  text-align: center;
   vertical-align: top;
 }
 

@@ -1,0 +1,7 @@
+@media(min-width:32.5rem){
+
+    .nav-link__list a{
+        font-size: 0.8rem;
+    }
+
+}

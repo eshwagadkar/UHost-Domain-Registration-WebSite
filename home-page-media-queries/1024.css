@@ -1,13 +1,46 @@
 @media( min-width:64rem){
-  #product-overview h1{
-    top: 30rem;
-    font-size: 2.5rem;
+
+  .main-nav{
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
+    text-align: center;
   }
- 
+
+  #product-overview{
+    height: 70vh;
+  }
+
+  #product-overview h1{
+    top: 25rem;
+    font-size: 2.3rem;
+  }
  
   .footer-main{
     padding-bottom: 45px;
     padding-left: 6.25rem;
     padding-right: 6.25rem;
   }
+
+  .footer .glossy-button{
+    margin-left: 4.375rem;
+}
+
+}
+
+@media( min-width:64rem) and (min-height:85.375rem){
+
+  #product-overview{
+    height: 55vh;
+  }
+
+  #product-overview h1{
+    top: 41rem;
+    font-size: 3rem;
+  }
+
+  .footer .glossy-button{
+    margin-left: 1.5rem;
+  }
+
 }

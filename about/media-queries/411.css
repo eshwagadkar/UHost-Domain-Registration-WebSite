@@ -13,7 +13,7 @@
   }
 
   main .about-heading {
-    padding-left: 9rem;
+    padding: 0 3.125rem;
     font-size: 1.9rem;
   }
 
@@ -22,17 +22,11 @@
     left: 2rem;
   }
 
-  .package-description-right{
-    margin-top: 14rem;
-  }
-
-  .package-description-left h6,
-  .package-description-right h6{
+  .package-description-left h6{
     font-size: 1.3rem;
   }
 
-  .package-description-left p, 
-  .package-description-right p{
+  .package-description-left p{
     font-size: 1.2rem;
   } 
 
@@ -46,11 +40,11 @@
     margin-left: 0.8rem;
   }
 
-  .package:nth-child(2) .package-description-right button{
+  .package:nth-child(2) button{
     margin-left: 0.7rem;
   }
 
-  .package:nth-child(3) .package-description-left button{
+  .package:nth-child(3) .button{
     margin-left: 0.8rem;
   }
 

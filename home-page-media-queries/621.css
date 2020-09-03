@@ -1,0 +1,14 @@
+@media(min-width:38.8125rem){
+
+    .main-header > div a.glossy-button{
+        margin-left:24rem;
+    }
+
+    main > svg{
+        display: none;
+    }
+
+    .section-title {
+        padding-top: 7rem;
+    }
+}

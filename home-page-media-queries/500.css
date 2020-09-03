@@ -1,0 +1,19 @@
+@media(min-width:31.25rem){
+
+    .main-header > div a.glossy-button{
+        margin-left:15rem;
+    }
+
+    main > svg{
+        display: none;
+    }
+
+    .section-title {
+        padding-top: 7rem;
+    }
+
+    .nav-link__list a{
+        font-size: 0.8rem;
+    }
+
+}

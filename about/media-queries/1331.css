@@ -5,24 +5,16 @@
   }
 
   .footer .glossy-button {
-    margin-right: 18.5rem;
+    margin-right: 11rem;
   }
 
   .package-description__background {
-    height: 28rem;
+    height: 72vh;
     top: 4.6rem;
   }
 
   main .about-heading{
-    padding-left: 16rem;
+    padding-left: 0;
   }
 
-  .package:nth-child(2) .package__image-container-2{
-    left: 3.3rem;
-  }
-
-  .package-description-right{
-    margin-left: 42rem;
-  }
-  
 }

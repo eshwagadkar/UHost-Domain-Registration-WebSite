@@ -11,9 +11,10 @@
 
 main .about-heading{
   color: cadetblue;
-  padding: 1.9rem 0rem 0rem 2.07rem;
+  padding: 1.9rem 0rem 0rem 1.9rem;
   width: 30%;
   margin: 6.6rem auto 0rem;
+  text-align: center;
 }
 
 .packages-container{
@@ -31,11 +32,12 @@ main .about-heading{
 
 .package span{
   color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3.13rem;
+  font-family: 'montserrat-bold', sans-serif;
+  font-size: 4rem;
   font-weight: bolder;
   display: inline-block;
   padding-top: 9.4rem;
+  text-shadow: 2px 2px 5px black;
 }
 
 .package span:hover{

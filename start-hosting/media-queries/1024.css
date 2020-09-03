@@ -1,0 +1,37 @@
+@media(min-width:64rem) and (min-height:85.375rem){
+
+
+    .footer-main{
+        padding: 40px 0 45px 50px;
+     }
+  
+    .signup-page{
+        height: 75.5vh;   
+    }
+
+    .signup-form label, select, input{
+        line-height:3rem;
+        font-size: 1.5rem;
+    }
+
+    .signup-form input:not([type="checkbox"]), .signup-form select {
+        border: 1px solid #ccc;
+        padding: 1rem;
+    }
+
+    .signup-form input[id*="terms"] + label{
+        width: 50rem;
+    }
+
+    .signup-form input[type="checkbox"]{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-top: 1.75rem ;
+    }
+
+    .signup-form button[disabled]{
+        padding: 1.5rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}

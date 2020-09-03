@@ -1,0 +1,28 @@
+@media(min-width:43.1875rem){
+
+
+    #product-overview{
+        height: 70vh;
+    }
+
+    
+    #product-overview h1{
+        top: 25rem;
+        font-size: 2.2rem;
+    }
+
+    main > svg{
+        display: none;
+    }
+
+    .section-title {
+        padding-top: 7rem;
+    }
+
+    .footer .glossy-button{
+        margin-left: 2rem;
+    }
+
+
+   
+}

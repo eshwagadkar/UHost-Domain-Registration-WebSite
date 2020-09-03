@@ -1,0 +1,37 @@
+@media(min-width:48rem) and (min-height:64rem){
+
+    .signup-page{
+      height: 67.5vh;   
+  }
+
+    .footer-main{
+      padding: 40px 0 45px 30px;
+   }
+
+  .button-license__container{
+    display: inline-block;
+    width: 40%;
+    vertical-align: baseline;
+  }
+
+  .button-license__container h5{
+    font-size: 1.2rem;
+    height: 3rem;
+    width: 300px;
+  }
+
+  .nav-link__list a{
+    font-size: 1.5rem;
+  }
+
+  .nav-link__container{
+    display: inline-block;
+    width: 55%;
+  }
+
+  .footer .glossy-button{
+    width: 230px;
+    font-size: 1.3rem;
+    margin-right: 5rem;
+  }
+}

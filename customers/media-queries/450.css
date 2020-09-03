@@ -1,0 +1,15 @@
+@media(min-width:28.125rem) and (min-height:37.5rem){
+    
+    .button-license__container h5{
+        margin-right: 10px;
+        margin-left: 0;
+    }
+
+    .footer .glossy-button{
+        margin-right: 6.6rem;
+    }
+
+    .package-description__background{
+        height: 80vh;
+    }
+}
