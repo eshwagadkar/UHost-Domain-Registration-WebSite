@@ -34,4 +34,25 @@
         font-size: 1rem;
         font-weight: bold;
     }
+
+    .nav-link__container {
+        display: inline-block;
+        width: 45%;
+      }
+
+    .footer{
+        font-size: 1rem;
+    }
+
+    .footer .glossy-button{
+        margin-left: 0;
+        font-size: 1rem;
+    }
+
+    .button-license__container h5{ font-size: 1rem;}
+
+    .nav-link__list a{
+        font-size: 1.5rem;
+      }
+      
 }
