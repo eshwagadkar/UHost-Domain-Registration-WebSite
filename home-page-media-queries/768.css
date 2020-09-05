@@ -93,14 +93,11 @@
   .button-license__container{
     display: inline-block;
     width: 40%;
+    text-align: center;
   }
 
   .button-license__container h5{
-    margin-top: 1.25rem;
-    margin-right: 0rem;
-    font-size: 1.2rem;
-    height: 3rem;
-    width: 300px;
+    font-size: 1.1rem;
   }
 
   .nav-link__list a{
@@ -112,8 +109,9 @@
     width: 55%;
   }
 
+  .footer h5{line-height: 5rem;} 
+
   .footer .glossy-button{
-    width: 230px;
     font-size: 1.3rem;
   }
 }

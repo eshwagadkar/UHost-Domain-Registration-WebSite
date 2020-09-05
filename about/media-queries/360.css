@@ -1,5 +1,9 @@
 @media(min-width: 22.5rem){
     
+    .main-header > div h6{
+      margin-left: 10rem;
+    }
+
     .package-description__background{
       height: 31rem;
       top: 4.3rem;
@@ -9,15 +13,6 @@
       width: 85%;
       height: 15rem;
   
-    }
-
-    /* main .about-heading{
-      padding-left: 4.07rem;
-    } */
-    
-    .footer .glossy-button{
-      margin-right: 3.7rem;
-      padding: 0.9375rem 1.875rem;
     }
 
     .package button{

@@ -17,7 +17,7 @@
     font-size: 1.25rem;
     color: rgb(22, 75, 77);
     vertical-align: middle;
-    margin-left: 6.875rem;
+    margin-left: 5rem;
   }
 
   .toggle-button{
@@ -75,15 +75,15 @@
     font-size: 1rem;
   }
 
-  .footer .glossy-button{
-    margin-right: 42px;
-    padding: 0.9375rem 1.875rem;
-  }
-
   .footer h5{
     text-align: center;
   }
-  
+
+  .footer .glossy-button{
+    margin:0;
+    padding: 0.9375rem 1.875rem;
+  }
+
   .mobile-nav__items{
     padding: 0.5rem;
     height: 92vh;
@@ -102,6 +102,17 @@
 
   .footer-main{
     padding-bottom: 0.2rem;
+  }
+
+  .button-license__container{
+    text-align: center;
+    line-height: 3rem;
+  }
+  
+
+  .button-license__container h5{
+    margin:0;
+    padding-top: 0rem;
   }
 
 }

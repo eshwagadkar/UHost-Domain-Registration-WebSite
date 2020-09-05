@@ -60,23 +60,9 @@
   }
 
   .footer .glossy-button{
-    margin-right: 4.875rem;
+    margin:0;
   }
 
-  .button-license__container{
-    margin-bottom: 0rem;
-    margin-left: 0.4rem;
-  }
-
-  .button-license__container h5{
-    margin: 2rem 2rem 2rem 0rem;
-    padding-top: 0rem;
-  }
-
-  .footer h5{
-    margin: 0rem 1rem 2rem 0rem;
-    padding-top: 30px;
-  }
 }
 
 
@@ -92,4 +78,3 @@
   }
 
 }
-

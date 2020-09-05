@@ -3,6 +3,7 @@
   .main-header > div h6{
     margin-left: 11rem;
   }
+
   .testimonial__image{
     height: 16.5625rem;
   }
@@ -19,8 +20,14 @@
     font-size: 1.3rem;
   }
 
-  .footer .glossy-button{
-    margin-right: 5.9rem;
+  .button-license__container {
+    text-align: center;
+    line-height: 4rem;
   }
+
+  .button-license__container h5 {
+    margin: 0;
+    padding-top: 0rem;
+}
 
 }

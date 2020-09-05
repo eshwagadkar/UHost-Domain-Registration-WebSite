@@ -79,17 +79,17 @@
   }
 
   .footer{
-    margin-bottom: 25px;
     width: 100%;
     font-size: 1rem;
   }
 
   .footer .glossy-button{
-    margin-right: 42px;
+    margin: 0;
     padding: 0.9375rem 1.875rem;
   }
 
   .footer h5{
+    padding: 0;
     text-align: center;
   }
 
@@ -109,5 +109,8 @@
     padding-bottom: 0.2rem;
   }
 
+  .button-license__container{
+    line-height: 3rem;
+  }
 }
 

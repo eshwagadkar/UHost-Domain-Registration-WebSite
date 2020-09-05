@@ -1,5 +1,9 @@
 @media(min-width:31.25rem){
     
+    .main-header > div h6{
+        margin-left: 17rem;
+    }
+
     .nav-link__container{
         width: 49%;
     }
@@ -7,6 +11,7 @@
     .button-license__container{
         width: 48%;
         text-align: center;
+        vertical-align: bottom;
     }
 
     .nav-link__list a{

@@ -11,10 +11,11 @@
     .button-license__container{
         width: 45%;
         text-align: center;
+        vertical-align: super;
     }
 
     .nav-link__list a{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .footer .glossy-button{

@@ -17,7 +17,6 @@
   .button-license__container h5{
     font-size: 1.2rem;
     height: 3rem;
-    width: 300px;
   }
 
   .nav-link__list a{
@@ -32,6 +31,5 @@
   .footer .glossy-button{
     width: 230px;
     font-size: 1.3rem;
-    margin-right: 5rem;
   }
 }

@@ -1,5 +1,9 @@
 @media(min-width:31.25rem){
 
+    .main-header > div h6{
+        margin-left: 18rem;
+    }
+
     .main-header > div a.glossy-button{
         margin-left:15rem;
     }
@@ -16,21 +20,22 @@
         width: 50%;
     }
 
+    .footer-main{
+        padding: 35px;
+    }
+
     .button-license__container{
         width: 45%;
         text-align: center;
+        vertical-align: super;
     }
 
     .nav-link__list a{
-        font-size: 0.8rem;
-    }
-
-    .footer .glossy-button{
-        margin-right: 0;
+        font-size: 0.9rem;
     }
 
     .button-license__container h5{
-        margin-right: 0;
+        font-size: 0.8rem;
     }
 
 }

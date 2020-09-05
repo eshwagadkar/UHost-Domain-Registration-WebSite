@@ -18,15 +18,10 @@
     height: 100%;
   }
 
-  .footer-main{
+  .footer-main {
     padding-bottom: 45px;
     padding-left: 6.25rem;
     padding-right: 6.25rem;
-  }
-
-  .footer .glossy-button{
-    margin-right: 3.125rem;
-    margin-left: 2.5rem;
-  }
+}
 
 }

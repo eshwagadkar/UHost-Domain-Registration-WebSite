@@ -1,6 +1,7 @@
 @media(min-width:30rem) and (min-height:43.75rem){
-
-    .footer .glossy-button{
-        margin-right: 8rem;
+    
+    .main-header > div h6{
+        margin-left: 14rem;
     }
+
 }

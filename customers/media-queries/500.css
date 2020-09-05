@@ -7,18 +7,22 @@
     .button-license__container{
         width: 48%;
         text-align: center;
+        line-height: 2.5rem;
     }
+
+    .button-license__container h5{ font-size: 0.8rem;}
 
     .nav-link__list a{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
-    .footer .glossy-button{
-        margin-right: 0;
+    .footer{
+        font-size:0.8rem;
+        vertical-align:middle;
     }
 
-    .button-license__container h5{
-        margin-right: 0;
+    .footer-main{
+        padding: 45px 20px;
     }
 
 }

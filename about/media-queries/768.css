@@ -20,7 +20,7 @@
   }
   
   .main-header > div h6{
-    margin-left: 25rem;
+    margin-left: 33rem;
   }
 
 
@@ -163,13 +163,11 @@
   .button-license__container{
     display: inline-block;
     width: 40%;
+    vertical-align: super;
   }
 
   .button-license__container h5{
-    margin-top: 2.5rem;
     font-size: 1.2rem;
-    height: 3rem;
-    width: 300px;
   }
 
   .nav-link__list a{
@@ -182,8 +180,6 @@
   }
 
   .footer .glossy-button{
-    width: 230px;
     font-size: 1.3rem;
-    margin-right: 5rem;
   }
 }

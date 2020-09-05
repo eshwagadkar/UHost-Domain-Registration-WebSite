@@ -1,5 +1,9 @@
 @media(min-width:32.5rem){
 
+    .main-header > div h6{
+        margin-left: 18rem;
+    }
+
     .nav-link__container{
         width: 50%;
     }
@@ -7,10 +11,11 @@
     .button-license__container{
         width: 45%;
         text-align: center;
+        vertical-align: bottom;
     }
 
     .nav-link__list a{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .footer .glossy-button{

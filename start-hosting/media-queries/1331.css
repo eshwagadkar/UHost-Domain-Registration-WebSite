@@ -27,9 +27,19 @@
         font-size: 1rem;
     }
 
+    .footer-main{
+        padding: 45px 100px;
+    }
+
     .footer .glossy-button{
         margin-left: 0;
         font-size: 1rem;
+    }
+
+    .button-license__container{
+        width: 40%;
+        text-align: center;
+        margin: 0;
     }
 
     .button-license__container h5{ font-size: 1rem;}

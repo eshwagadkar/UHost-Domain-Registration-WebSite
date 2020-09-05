@@ -4,7 +4,7 @@
 }
 
 #product-overview h1{
-  top: 25.5rem;
+  top: 24rem;
   font-size: 2.5rem;
 }
 
@@ -56,14 +56,16 @@
   left: 35%;
 }
 
-.footer .glossy-button{
-  margin-right: 16rem;
-}
-
 .button-license__container{
-  width: 20%;
+  width: 40%;
+  text-align: center;
+  line-height: 4rem;
+  vertical-align: super;
 }
 
-
+.button-license__container h5{
+  text-align: center;
+  margin: 0;
+}
 
 }

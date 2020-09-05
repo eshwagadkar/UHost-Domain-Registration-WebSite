@@ -17,22 +17,19 @@
 
     .nav-link__container {
         display: inline-block;
-        width: 70%;
     }
 
     .button-license__container{
         display: inline-block;
-        width: 70%;
         text-align: center;
-        margin: 0 40px 32px 50px;
     }
 
     .footer .glossy-button{
-        margin: 16px auto;
+        margin: 0;
     }
 
     .button-license__container h5{
-        margin: 9px auto;
+        margin: 0;
     }
     
 }

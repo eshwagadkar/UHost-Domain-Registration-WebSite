@@ -16,4 +16,19 @@
         font-size: 0.8rem;
     }
 
+    .nav-link__container{
+        width: 50%;
+    }
+
+    .nav-link__container .nav-link:last-child{ margin-left: 0.25rem;}
+
+    .button-license__container{
+        width: 45%;
+        vertical-align: super;
+    }
+
+    .footer{
+        font-size: 0.9rem;
+    }
+
 }

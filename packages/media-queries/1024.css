@@ -1,7 +1,7 @@
 @media(min-width: 64rem){
 
   .main-header > div h6{
-    margin-left: 38rem;
+    margin-left: 45rem;
   }
 
   .package{
@@ -27,9 +27,6 @@
     top: 5.5rem;
   }
 
-  .footer .glossy-button{
-    margin-right: 4.1rem;
-  }
 
   .footer-main{
     padding-bottom: 45px;

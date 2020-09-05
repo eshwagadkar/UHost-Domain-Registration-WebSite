@@ -1,16 +1,16 @@
 @media(min-width:28.125rem) and (min-height:37.5rem){
 
+    .main-header > div h6{
+        margin-left: 12rem;
+    }
+
     .package:first-child h2,
     .package h2 {
         font-size: 1.5rem;
     }
 
-
     .package p {
         font-size: 1.4rem;
     }
 
-    .footer .glossy-button{
-        margin-right: 6.6875rem;
-    }
 }

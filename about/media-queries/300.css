@@ -123,11 +123,12 @@
     font-size: 1rem;
   }
 
-  .footer .glossy-button{
-    margin-right: 42px;
+  .footer button{
+    margin: 0;
   }
 
   .footer h5{
+    padding: 0;
     text-align: center;
   }
 
@@ -146,13 +147,13 @@
   .glossy-button {
     background: linear-gradient(to right, rgb(83, 161, 161), hsl(191, 95%, 24%));
   }
- 
-  .footer .glossy-button{
-    padding: 0.9375rem 1.875rem;
-  }
 
   .footer-main{
     padding-bottom: 0.2rem;
+  }
+
+  .button-license__container{
+    line-height: 3rem;
   }
 
 

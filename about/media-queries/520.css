@@ -1,5 +1,9 @@
 @media(min-width:32.5rem){
-    
+
+    .main-header > div h6{
+        margin-left: 20rem;
+    }
+
     .main-header > div a.glossy-button{
         margin-left:15rem;
     }
@@ -36,5 +40,6 @@
     .package:nth-child(2) .package__image-container-2{
         left: 2.5rem;
     }
+
 
 }

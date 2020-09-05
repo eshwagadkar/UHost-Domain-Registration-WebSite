@@ -154,13 +154,14 @@
   }
 
   .footer .glossy-button{
-    margin-right: 42px;
+    margin: 0;
     padding: 0.9375rem 1.875rem;
   }
 
   .footer h5{
     text-align: center;
-    margin-top: 0;
+    padding:0;
+    line-height:3rem;
   }
 
   .modal{
