@@ -6,43 +6,43 @@
 @font-face {
   font-family: 'montserrat-regular';
   src: url('./fonts/montserrat-regular.ttf');
-  font-display: optional;
+  font-display: auto;
 }
 
 @font-face {
   font-family: 'montserrat-italic';
   src: url('./fonts/montserrat-italic.ttf');
-  font-display: optional;
+  font-display: auto;
 }
 
 @font-face {
   font-family: 'montserrat-bold';
   src: url('./fonts/montserrat-bold.ttf');
-  font-display: optional;
+  font-display: auto;
 }
  
 @font-face {
   font-family: 'anton-regular';
   src: url('./fonts/anton-regular.ttf');
-  font-display: optional;
+  font-display: auto;
 }
 
 @font-face {
   font-family: 'roboto-regular';
   src: url('./fonts/roboto-regular.ttf');
-  font-display: optional;
+  font-display: auto;
 }
 
 @font-face {
   font-family: 'roboto-bold';
   src: url('./fonts/roboto-bold.ttf');
-  font-display: optional;
+  font-display: auto;
 }
 
 @font-face {
   font-family: 'roboto-italic';
   src: url('./fonts/roboto-italic.ttf');
-  font-display: optional;
+  font-display: auto;
 }
 
 
