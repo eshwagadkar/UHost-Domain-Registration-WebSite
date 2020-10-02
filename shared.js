@@ -10,7 +10,7 @@ for ( let i = 0; i < button.length; i++ ){
   button[i].addEventListener('click', () => {
     // backDrop.style.display = 'block'     //Inline Styling Approach using JavaScript
     // modal.style.display = 'block'
-      // modal.className = 'open'   //overrides the applied class
+      // modal.className = 'open'   //Over-rides the applied class
       modal.classList.add('open')
       backDrop.classList.add('open')
   })
