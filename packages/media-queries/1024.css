@@ -21,13 +21,6 @@
     padding: 5%;
   }
 
-  .package h3{
-    font-size: 1.5rem;
-    left: 25rem;
-    top: 5.5rem;
-  }
-
-
   .footer-main{
     padding-bottom: 45px;
     padding-left: 6.25rem;
@@ -35,4 +28,28 @@
   }
 
   
+}
+
+
+@media(min-width: 64rem) and (min-height:37.75rem){
+  .package h3{
+    font-size: 1.1rem;
+    transform: rotate(0deg);  
+    width: 20rem;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+}
+
+@media(min-width: 64rem) and (min-height:85.375rem){
+
+  .package h3{
+    font-size: 1.1rem;
+    transform: rotate(43deg) translateX(7.2rem) translateY(-10rem);
+    width: 20rem;
+    text-align: center;
+    font-size: 1rem;
+  }
+
 }

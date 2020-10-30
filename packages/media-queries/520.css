@@ -26,5 +26,37 @@
         margin-right: 0;
     }
 
+    .packages-container section:first-of-type{overflow: hidden;}    
+
+    .package h3{
+        transform: rotate(45deg) translateX(-1.5rem) translateY(-3rem);
+        width: 16rem;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
 
 }
+
+@media(min-width:32.5rem) and (min-height:37.75rem){
+
+    .package h3{
+        transform: rotate(45deg) translateX(-1.7rem) translateY(-1.5rem);
+        width: 16rem;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+}
+
+@media(min-width:33.125rem) and (min-height:37.75rem){
+
+    .package h3{
+        transform: rotate(45deg) translateX(-1.7rem) translateY(-3rem);
+        width: 16rem;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+}
+

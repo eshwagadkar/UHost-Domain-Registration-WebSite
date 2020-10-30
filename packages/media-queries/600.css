@@ -1,8 +1,55 @@
-@media(min-width:37.5rem){
+@media(min-width:37.5rem) and (min-height:37.75rem){
 
     .main-header > div h6{
         margin-left: 23rem;
     }
 
+    .packages-container section:first-of-type{overflow: hidden;} 
+
+    .package h3{
+        transform: rotate(45deg) translateX(-0.5rem) translateY(-3rem);
+        width: 20rem;
+        text-align: center;
+        font-size: 0.8rem;
+    }
     
 }
+
+@media(min-width:38.125rem) and (min-height:37.75rem){
+
+    .packages-container section:first-of-type{overflow: hidden;} 
+
+    .package h3{
+        transform: rotate(45deg) translateX(-0.2rem) translateY(-4rem);
+        width: 20rem;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}
+
+@media(min-width:38.75rem) and (min-height:37.75rem){
+
+    .packages-container section:first-of-type{overflow: hidden;} 
+
+    .package h3{
+        transform: rotate(45deg) translateX(0.2rem) translateY(-4rem);
+        width: 20rem;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}
+
+@media(min-width:40rem) and (min-height:37.75rem){
+
+    .packages-container section:first-of-type{overflow: hidden;} 
+
+    .package h3{
+        transform: rotate(45deg) translateX(0.6rem) translateY(-4rem);
+        width: 20rem;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}
+
+
+

@@ -70,7 +70,7 @@
 }
 
 
-/* Mobile Navgation */
+/* Mobile Navgation
 .mobile-nav {
   display: none;
   position: fixed;
@@ -80,6 +80,24 @@
   background: rgb(255, 255, 255);
   width: 80%;
   height: 100vh;
+} */
+
+.mobile-nav {
+  /* display: none; */
+  position: fixed;
+  transform: translateX(-90rem);
+  transition: transform 1s ease-in-out;
+  z-index: 102;
+  top: 0;
+  left: 0;
+  background: #fff; 
+  width:85%;
+  height: 100vh;
+}
+
+.open-nav{
+  /* display: block !important; */
+  transform: translateX(0rem) !important;
 }
 
 .mobile-nav__items {
