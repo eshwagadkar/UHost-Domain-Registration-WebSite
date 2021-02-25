@@ -181,6 +181,7 @@ body{
 
 .animate-signup{
   animation: wiggle 400ms 2s 6 ease-out none;
+  animation-fill-mode: backwards;
 }
 
 

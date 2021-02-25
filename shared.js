@@ -40,6 +40,7 @@ backDrop.addEventListener('click', closeModalBackdropSideNav)
 //Close the modal if open
 if(modal){ //Check if modal is already open
   modalNoButton.addEventListener('click', closeModalBackdropSideNav) //Close the modal when NO button on the modal is pressed 
+  // modal.classList.remove('open-modal');
 }
 
 
